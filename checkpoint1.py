@@ -50,5 +50,7 @@ while True:
     b = cv2.getTrackbarPos('B','Image')
     bg[:] = [b,g,r]
 
+
+cv2.imwrite('output1.png',final)
 #destroy all window   
 cv2.destroyAllWindows()

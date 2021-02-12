@@ -60,5 +60,6 @@ cv2.drawContours(img, [max_c], -1, (0, 0, 0), 2)
 
 #displaying image
 cv2.imshow("Image", img)
+cv2.imwrite('output2.png',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
